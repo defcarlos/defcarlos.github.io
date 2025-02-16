@@ -43,6 +43,6 @@ hgroup {
 }
 
 /*for readability maxing out at 80 characters per line*/
-p {
+p, div {
     max-width: 80ch;
 }
