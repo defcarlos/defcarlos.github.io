@@ -46,3 +46,8 @@ hgroup {
 p, div {
     max-width: 80ch;
 }
+
+blockquote {
+    border-left: 0.5em solid #000000;
+    padding-left: 0.5em;
+}
