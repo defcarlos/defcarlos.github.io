@@ -13,7 +13,7 @@
 header { 
     display: grid;
     grid-template-columns: minmax(4em, 14em) auto;
-    border-bottom: 1px solid #939393;
+    border-bottom: 0.05em solid #939393;
     align-items: center;
 }
 
@@ -23,7 +23,7 @@ main {
 }
 
 footer { 
-    border-top: 1px solid #939393;
+    border-top: 0.05em solid #939393;
     padding-top: 1em;
 } 
 
@@ -48,5 +48,11 @@ p, div, blockquote {
 
 blockquote {
     border-left: 0.5em solid #000000;
+    padding-left: 0.5em;
+}
+
+/*left border styling for the text excluding heading*/
+#entry {
+    border-left: 0.05em solid #939393;
     padding-left: 0.5em;
 }
