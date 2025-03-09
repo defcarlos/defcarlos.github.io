@@ -2,12 +2,36 @@
 #container {
     padding-left: 2em;
     padding-right: 2em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.25em;
     display: grid;
     height: 100vh;
     grid-template-rows: auto 1fr auto;
 }
+
+/*atkinson font*/
+.atkinson-hyperlegible-regular {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .atkinson-hyperlegible-bold {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .atkinson-hyperlegible-regular-italic {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .atkinson-hyperlegible-bold-italic {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }  
 
 /*landmark styling*/
 header { 
